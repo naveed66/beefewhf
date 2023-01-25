@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // let Mian = ["lahore-pakistan,Dheli-pakistan,Tokyou-Japan"];
+
+    // for(let data of Mian){
+
+        // let num =prompt("Enter your Nabers");
+            
+        // let Gnum =num.split(",");
+        // let data = Gnum.filter(function(even){
+        //     if(even%2 == 0){
+        //         return true;
+        //     }
+        // })
+        // console.log(Gnum)
+        //////////////////////////////////////////////////////////////////////////////
+    // let num =prompt("Enter your Value");
+    // let Gnum = num.split(",")
+    // let data =Gnum.filter(function(even){
+    //     if(even%2 ==0){
+    //         return true;
+    //     }
+    // })
+    // console.log(data);
+    ////////////////////////////////////////////////////////////////////////////////////
+    let num =prompt("Enter Your Value");
+    let data =num.split(",");
+
+    let index =data.map(function(num){
+        return num[num.length-1];
+    })
+    console.log(index)
+</script>
+</html>
